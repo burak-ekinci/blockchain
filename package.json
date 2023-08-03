@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node_1": "nodemon networkNode.js 3001 http://localhost:3001",
+    "node_2": "nodemon networkNode.js 3002 http://localhost:3002",
+    "node_3": "nodemon networkNode.js 3003 http://localhost:3003",
+    "node_4": "nodemon networkNode.js 3004 http://localhost:3004",
+    "node_5": "nodemon networkNode.js 3005 http://localhost:3005"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sha256": "^0.2.0",
+    "uuid": "^9.0.0"
+  }
 }
